@@ -1,0 +1,57 @@
+
+        Based on the following context documents, help generate a professional CV:
+       
+        Context: Mobile Developer (2021 - 2023)
+Technical Stack: Python, Django, Laravel, Flutter
+At Devaddax, Paris, 75008 as a Freelancer.mehdizse@gmail.com
+PERSONAL QUALITIESMehdi GHOMARI
+Looking for an Internship
+PROFESSIONAL EXPERIENCE
+Mobile Developer (2020-2021)
+Technical Stack : PHP, SQL, Flutter
+At MIQATTA, Tlemcen, Algeria.I am a first-year Master student in MIAGE (Computer Methods Applied to Business
+Management) at the University of Lille. I am looking for an internship from April 8th to
+August 31st.
+ 
+07 53 41 64 09
+EDUCATION
+Graduated with a Master in Software Engineering (2014-2019)
+Université Abou Bakr Belkaid Tlemcen fs.univ-tlemcen.dz.
+Projects Completed: :
+Final Project: Developed a patient record sharing system using Laravel and
+Flutter.
+Middleware Project: Developed a banking management system using Java.
+Advanced Web Project: : Developed an e-commerce web application using
+PHP and Laravel."SKILLS
+PROGRAMMING
+Flutter PHP Java Python
+DESIGN AND DATABASES
+SQL NoSQL UML Agile
+LANGUAGES:
+Arabic : NativeFrench: : Proficient
+ 
+English : Intermediate
+INTERESTS
+Football.
+Reading and personal development.
+Travel.
+Internet of Things (IoT).Travail en équipe
+Autonomy CreativityTime management Team spirit
+Established the specifications for the development of a medical
+application in collaboration with various caregivers involved in a
+research project.
+Implemented the solution in collaboration with the pharmacology
+laboratory to ensure the therapeutic safety of the patients at
+CHU.Web Developer (February 2019 - July 2019).
+Technical Stack: PHP, Laravel, Flutter, and MySQL.
+End-of-study internship at CHU Tlemcen, Algeria.
+Master in MIAGE (2023-2024)
+at University of Lille 1,0008
+I have been working in the field of mobile development for over a year. My
+experience is in developing mobile applications for mobile devices. In this
+project I have developed a mobile application that is based on a database of
+database tables. The application is designed to be a simple
+web application with no interaction with any database. It is also designed
+to be able to use the database to create a user profile. This
+app is available for download on my website.  I also have a project for
+developing a web app for Android.
