@@ -34,6 +34,11 @@ query = "Générer un CV pour un ingénieur logiciel avec 2 ans d'expérience en
 
 The generated can be viewed [GENERATED_CV](generated_cv/generated_cv.pdf)
 
+### Note on the General Prompt
+
+The initial prompt used to generate the CV was broad and produced results that were generally close to reality. However, the generated content occasionally included inaccurate words or nonsensical phrases, a common issue with AI hallucinations. Careful review and editing are necessary to ensure the CV's accuracy and coherence.
+
+
 ## Installation
 
 
