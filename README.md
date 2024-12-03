@@ -31,21 +31,12 @@ The generated can be viewed [GENERATED_CV](generated_cv/generated_cv.pdf)
 
 ## Installation
 
-### Prerequisites
-
-- Python 3.8 or later
-- PyTorch
-- Transformers
-- Sentence-BERT
-- LangChain
-- Chroma
-- dotenv (for environment variables)
 
 ### Setup
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/cv-generator.git
+    git clone https://github.com/mehdizse/Tp_RAG.git
     cd cv-generator
     ```
 
@@ -54,8 +45,6 @@ The generated can be viewed [GENERATED_CV](generated_cv/generated_cv.pdf)
     pip install -r requirements.txt
     ```
 
-3. **Set Up Environment Variables**:
-    Create a `.env` file in the project root directory and add any necessary environment variables, such as paths to your document directories.
 
 ## Usage
 
@@ -86,10 +75,6 @@ Place your old CV documents (in PDF or text format) in a directory. The script w
     query = "Generate a CV for a software engineer with 5 years of experience."
     generated_cv = cv_generator.generate_cv(query)
     print(generated_cv)
-
-    # Optionally, save the CV to a file
-    with open('generated_cv.txt', 'w', encoding='utf-8') as f:
-        f.write(generated_cv)
     ```
 
 ## Generation Parameters
@@ -102,6 +87,10 @@ outputs = self.model.generate(
     max_length=1024, 
     num_return_sequences=1,
     temperature=self.temperature,
-    no_repeat_ngram_size=2
+    no_repeat_ngram_size=2,
+    do_sample=True,  # Enable sampling
+    top_k=50,        # Top-k sampling
+    top_p=0.95,      # Top-p (nucleus) sampling
+    repetition_penalty=1.2  # Penalize repetition
 )
 ```
