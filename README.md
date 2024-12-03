@@ -39,6 +39,29 @@ The generated can be viewed [GENERATED_CV](generated_cv/generated_cv.pdf)
 The initial prompt used to generate the CV was broad and produced results that were generally close to reality. However, the generated content occasionally included inaccurate words or nonsensical phrases, a common issue with AI hallucinations. Careful review and editing are necessary to ensure the CV's accuracy and coherence.
 
 
+### Second Prompt
+
+```python
+query = """Rédige un CV professionnel en français pour un ingénieur logiciel ayant 2 ans d'expérience en développement web et mobile. Ce CV doit inclure les sections suivantes :
+
+Informations personnelles : Nom fictif, adresse, email, et numéro de téléphone.
+Résumé professionnel : Un paragraphe décrivant brièvement les compétences principales et les objectifs professionnels.
+Compétences techniques : Langages de programmation (JavaScript, Python, Dart, etc.), frameworks (React, Flutter), outils (Git, Docker), et compétences annexes (tests unitaires, CI/CD, UX/UI).
+Expériences professionnelles : Deux postes détaillant les missions principales, les technologies utilisées, et les résultats obtenus.
+Formation : Diplôme d'ingénieur en informatique ou équivalent.
+Projets personnels : Exemples de projets web et mobiles, avec des liens éventuels.
+Langues : Français (natif) et Anglais (intermédiaire ou avancé). Rends le format clair, organisé et prêt à l'emploi pour une candidature.""" 
+```
+
+### Used temperature : 0.3
+
+The generated can be viewed [GENERATED_CV2](generated_cv/generated_cv2.pdf)
+
+### Note on the General Prompt
+
+Using a more detailed and structured prompt significantly improved the realism and conciseness of the generated CV. The information was more accurate and aligned with the expected content. However, the output did not fully respect the requested CV format. Adjustments may still be necessary to organize the sections properly and ensure compliance with professional CV standards.
+
+
 ## Installation
 
 
