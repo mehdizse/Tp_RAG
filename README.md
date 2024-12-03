@@ -12,16 +12,16 @@ This project utilizes a **Retrieval-Augmented Generation (RAG)** based approach 
 - **Customizable Prompts**: Provide different prompts to generate various types of CVs.
 - **Temperature Control**: Adjust the temperature parameter to control the randomness of the generated text.
 
+## Curriculum Vitae
+
+The CV used in this project can be found in the [DATA folder](./data).
+
 ### Customizing Prompts and Temperature
 
 You can customize the prompts and temperature to generate different types of CVs.
 
 - **Prompts**: Modify the `query` variable to change the input for the CV generation.
 - **Temperature**: Adjust the `temperature` parameter in the `CVGenerator` class to control the randomness of the generated text.
-
-## Curriculum Vitae
-
-The CV used in this project can be found in the [DATA folder](./data).
 
 
 ## Example Prompt
