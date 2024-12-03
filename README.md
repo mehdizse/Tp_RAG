@@ -21,7 +21,7 @@ You can customize the prompts and temperature to generate different types of CVs
 
 ## Curriculum Vitae
 
-The CV used in this project can be found in the [DATA folder](./DATA).
+The CV used in this project can be found in the [DATA folder](./data).
 
 
 ## Example Prompt
