@@ -101,7 +101,15 @@ def main():
     
     cv_generator = CVGenerator(vectorstore)
     
-    query = """Générer un CV pour un ingénieur logiciel avec. 2 ans d'expérience en développement web et mobile.:"""
+    query = """"Rédige un CV professionnel en français pour un ingénieur logiciel ayant 2 ans d'expérience en développement web et mobile. Ce CV doit inclure les sections suivantes :
+
+    Informations personnelles : Nom fictif, adresse, email, et numéro de téléphone.
+    Résumé professionnel : Un paragraphe décrivant brièvement les compétences principales et les objectifs professionnels.
+    Compétences techniques : Langages de programmation (JavaScript, Python, Dart, etc.), frameworks (React, Flutter), outils (Git, Docker), et compétences annexes (tests unitaires, CI/CD, UX/UI).
+    Expériences professionnelles : Deux postes détaillant les missions principales, les technologies utilisées, et les résultats obtenus.
+    Formation : Diplôme d'ingénieur en informatique ou équivalent.
+    Projets personnels : Exemples de projets web et mobiles, avec des liens éventuels.
+    Langues : Français (natif) et Anglais (intermédiaire ou avancé). Rends le format clair, organisé et prêt à l'emploi pour une candidature.""""
     generated_cv = cv_generator.generate_cv(query)
     
     print(generated_cv)
