@@ -19,6 +19,11 @@ You can customize the prompts and temperature to generate different types of CVs
 - **Prompts**: Modify the `query` variable to change the input for the CV generation.
 - **Temperature**: Adjust the `temperature` parameter in the `CVGenerator` class to control the randomness of the generated text.
 
+## Curriculum Vitae
+
+The CV used in this project can be found in the [DATA folder](./DATA).
+
+
 ## Example Prompt
 
 ### First prompt
