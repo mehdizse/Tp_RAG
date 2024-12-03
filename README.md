@@ -2,7 +2,8 @@
 
 ## Overview
 
-This project utilizes a Retrieval-Augmented Generation (RAG) based approach with GPT-2 to generate a CV from your own documents. The model retrieves relevant information from your documents and generates a coherent CV based on the provided prompts.
+This project utilizes a **Retrieval-Augmented Generation (RAG)** based approach with **GPT-2** to generate a **CV** from your own documents. The model retrieves relevant information from your documents and generates a coherent CV based on the provided prompts.
+
 
 ## Features
 
@@ -10,6 +11,23 @@ This project utilizes a Retrieval-Augmented Generation (RAG) based approach with
 - **RAG-based Generation**: Use a RAG-based GPT-2 model to generate a CV from the loaded documents.
 - **Customizable Prompts**: Provide different prompts to generate various types of CVs.
 - **Temperature Control**: Adjust the temperature parameter to control the randomness of the generated text.
+
+### Customizing Prompts and Temperature
+
+You can customize the prompts and temperature to generate different types of CVs.
+
+- **Prompts**: Modify the `query` variable to change the input for the CV generation.
+- **Temperature**: Adjust the `temperature` parameter in the `CVGenerator` class to control the randomness of the generated text.
+
+## Example Prompt
+
+### First prompt
+```python
+query = "Générer un CV pour un ingénieur logiciel avec 2 ans d'expérience en développement web et mobile."
+```
+### Used temperature : 0.3
+
+The generated can be viewed [GENERATED_CV](generated_cv/generated_cv.pdf)
 
 ## Installation
 
@@ -73,21 +91,6 @@ Place your old CV documents (in PDF or text format) in a directory. The script w
     with open('generated_cv.txt', 'w', encoding='utf-8') as f:
         f.write(generated_cv)
     ```
-
-### Customizing Prompts and Temperature
-
-You can customize the prompts and temperature to generate different types of CVs.
-
-- **Prompts**: Modify the `query` variable to change the input for the CV generation.
-- **Temperature**: Adjust the `temperature` parameter in the `CVGenerator` class to control the randomness of the generated text.
-
-## Example Prompt
-
-```python
-query = "Générer un CV pour un ingénieur logiciel avec:
-- Compétences: Python, Machine Learning, SQL
-- Expérience: 5 ans"
-```
 
 ## Generation Parameters
 
